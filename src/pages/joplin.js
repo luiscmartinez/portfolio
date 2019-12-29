@@ -7,7 +7,7 @@ const Testing = () => (
       Joplin, Missouri Police Woman Shoots Herself In Hand - Male Cop Shoots
       Suspect
     </h1>
-    <video controls width="450">
+    <video controls width="100%">
       <source type="video/mp4" src={Video} />
       Sorry, your browser doesn't support embedded videos.
     </video>
