@@ -183,7 +183,7 @@ Project.propTypes = {
 const Projects = () => (
   <Section.Container id="projects" Background={Background}>
     <Section.Header name="Projects" icon="💻" Box="notebook" />
-    <StaticQuery
+    {/* <StaticQuery
       query={graphql`
         query ProjectsQuery {
           contentfulAbout {
@@ -214,7 +214,8 @@ const Projects = () => (
           ))}
         </CardContainer>
       )}
-    />
+    /> */}
+    <h1>MY DOPE PROJECTS</h1>
   </Section.Container>
 );
 

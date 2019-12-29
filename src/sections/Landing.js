@@ -41,7 +41,7 @@ const Background = () => (
 
 const LandingPage = () => (
   <Section.Container id="home" Background={Background}>
-    <StaticQuery
+    {/* <StaticQuery
       query={graphql`
         query SiteTitleQuery {
           contentfulAbout {
@@ -100,7 +100,8 @@ const LandingPage = () => (
           </Fragment>
         );
       }}
-    />
+    /> */}
+    <h1>SOME LANDING STUFF :)</h1>
   </Section.Container>
 );
 
