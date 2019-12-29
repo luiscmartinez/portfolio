@@ -11,6 +11,9 @@ const Testing = () => (
       <source type="video/mp4" src={Video} />
       Sorry, your browser doesn't support embedded videos.
     </video>
+    <a href={Video} download>
+      DOWNLOADD!🔰
+    </a>
   </Layout>
 );
 
