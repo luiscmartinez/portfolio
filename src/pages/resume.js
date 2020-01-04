@@ -3,7 +3,7 @@ import React from 'react';
 import ResumePdf from '../../media/01_03_2019_resume.pdf';
 const Resume = () => (
   <Layout>
-    <div style={{ border: '2px solid red', height: '100vh' }}>
+    <div style={{ height: '100vh' }}>
       <embed
         src={ResumePdf}
         type="application/pdf"
