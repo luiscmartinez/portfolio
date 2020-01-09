@@ -101,7 +101,7 @@ const LandingPage = () => (
         );
       }}
     /> */}
-    <h1>SOME LANDING STUFF :)</h1>
+    <h1>SOME LANDING STUFF {':)'}</h1>
   </Section.Container>
 );
 
